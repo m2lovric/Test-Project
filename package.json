@@ -1,0 +1,22 @@
+{
+  "name": "Testing-Project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/m2lovric/Test-Project.git",
+  "author": "m2lovric <m2lovric@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public --port=8090",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "webpack": "^4.41.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "webpack-cli": "^3.3.10"
+  }
+}
